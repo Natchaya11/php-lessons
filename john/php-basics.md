@@ -13,6 +13,8 @@ In PHP, variables are used to store data, such as strings, integers, arrays, and
     $name = "John Doe"; // String
     $age = 30; // Integer
     $is_admin = true; // Boolean
+    $variable1 = "coco"; 
+
 ?>
 ```
 
