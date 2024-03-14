@@ -7,9 +7,9 @@
     $b = 2; 
     $c = $a + $b;
 
-    echo $a; // Outputs : 
-    echo $b; // Outputs : 
-    echo $c; // Outputs : 
+    echo $a; // Outputs : 1
+    echo $b; // Outputs : 2
+    echo $c; // Outputs : 3
 ?>
 
 
@@ -23,8 +23,8 @@
     $b = $b; 
     $a = $b + 22;
 
-    echo $a; // Outputs : 
-    echo $b; // Outputs : 
+    echo $a; // Outputs : 44
+    echo $b; // Outputs : 22
 ?>
 
 // ####################
@@ -40,9 +40,9 @@
     $a = $b + $c;
     $c = $a + $b; 
 
-    echo $a; // Outputs : 
-    echo $b; // Outputs : 
-    echo $c; // Outputs : 
+    echo $a; // Outputs : 55
+    echo $b; // Outputs : 22
+    echo $c; // Outputs : 77
 ?>
 
 
@@ -56,15 +56,15 @@
     $c = "see you later";
     $d = "goodnight";
 
-    $d = $a;
-    $a = $b;
-    $b = $c;
-    $c = $d;
+    $d = $a; hello
+    $a = $b; goodbye
+    $b = $c; see you later
+    $c = $d; good night
 
-    echo $a; // Outputs : 
-    echo $b; // Outputs : 
-    echo $c; // Outputs : 
-    echo $d; // Outputs : 
+    echo $a; // Outputs : hello
+    echo $b; // Outputs : goodbye
+    echo $c; // Outputs : see you later
+    echo $d; // Outputs : good night
 ?>
 
 
@@ -76,7 +76,7 @@
     $name = "Kiki";
     $lastname = "Koko";
 
-    echo $name . $lastname; // Outputs : 
+    echo $name . $lastname; // Outputs :kikikoko 
 ?>
 
 
@@ -89,7 +89,7 @@
     $name = "Bob";
     $lastname = "Marley";
 
-    echo "Hello everyone, my name is " . $name . " " . $lastname; // Outputs : 
+    echo "Hello everyone, my name is " . $name . " " . $lastname; // Outputs : hello everyone, my name is bob marley
 ?>
 
 
