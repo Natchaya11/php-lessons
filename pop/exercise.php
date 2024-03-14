@@ -35,10 +35,10 @@
     $a = 11; 
     $b = 22; 
     $c = 33;
-    $a = $b + $c; 
-    $b = $a + $a;
-    $a = $b + $c; 
-    $c = $a + $b;
+    $a = $b + $c; 55
+    $b = $a + $a; 22
+    $a = $b + $c; 55
+    $c = $a + $b; 77
 
     echo $a; // แสดงผล : 55
     echo $b; // แสดงผล : 22
@@ -110,7 +110,7 @@
     }
 
     $myCat = new Cat();
-    echo $myCat->name; // แสดงผล: 
+    echo $myCat->name; // แสดงผล: Garfield
 
-    $myCat->meow(); // แสดงผล: 
+    $myCat->meow(); // แสดงผล: Scottish
 ?>
