@@ -1,13 +1,7 @@
-<html>
-    <style>
-        a {
-            display: block;
-        }
-        </style>
-    <body>
-        <a href="/o">O</a>
-        <a href="/new">New</a>
-        <a href="/pop">Pop</a>
-        <a href="/john">John</a>
-    </body>
-</html>
+$a = 1;
+$b = 2;
+$c = 3;
+$a = $b + $c;
+$b = $a + $a;
+$a = $b + $c;
+$c = $a - $b;
