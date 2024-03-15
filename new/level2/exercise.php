@@ -1,4 +1,8 @@
-<?php
+<?php 
+Class Vector 2D {
+    public $X
+    public $y
+}
 
 // สร้างคลาส Vector2D พร้อมทั้ง x, y ใน constructor
 
