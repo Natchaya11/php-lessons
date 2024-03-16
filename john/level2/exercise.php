@@ -1,43 +1,33 @@
 <?php
 
-// Make a Vector2D class with x, y in the constructor
-class Vector2D {
-    public $x;
-    public $y;
+class vector2D {
+    public $X;
+    Public $Y;
+
+    // Constructor
+    public function _construct($X, $Y) {
+        $this->X = $X;
+        $this->Y = $Y;
+    } 
+}
+    
+//method_exists
+
+new vector2D(1, 3)
+class vector3D extends vector2D {
+        public $Z 
+
+        public function _construct($X, $Y, $Z) {
+            $this->Z = $Z
+            $this->X =$X
+            $this->Y =$Y
+        }
+
+
+
+        
+    _
 }
 
-?>
 
-<?php
-
-class Vector3D extends Vector2D {
-    public $z;
-}
-
-// Create a Vector3D class that extends the Vector2D class and adds the z property
-
-?>
-
-<?php
-
-class myNumber {
-    public $a;
-
-    public function add($anotherNumber) {
-        $this->a = $this->a + $anotherNumber;
-    }
-}   
-// Create the add method
-$numberA = new myNumber();
-$numberA->a = 15;
-$numberA->add(2);
-echo $numberA->a; // 17
-
-function add($a, $b) {
-    return $a + $b;
-}
-
-$myNumber = add(10, 20)
-
- 
 ?>
