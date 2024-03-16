@@ -11,9 +11,8 @@ class Vector2D {
 }
 <?php
 class Vector3D extends Vector2D {
-    public function Z() {
-        echo $this->name ." Z\n";
-    }
+    public $z;
+
 }
 
 // สร้างคลาส Vector3D ที่สืบทอดมาจากคลาส Vector2D และเพิ่มคุณสมบัติ z
