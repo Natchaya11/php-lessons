@@ -35,13 +35,13 @@
     $a = 11; 
     $b = 22; 
     $c = 33;
-    $a = $b + $c;
-    $b = $a + $a; 
-    $a = $b + $c;
-    $c = $a + $b; 
+    $a = $b + $c; 55
+    $b = $a + $a; 110
+    $a = $b + $c; 143
+    $c = $a + $b; 253
 
     echo $a; // Outputs : 55
-    echo $b; // Outputs : 22
+    echo $b; // Outputs : 110
     echo $c; // Outputs : 77
 ?>
 
@@ -59,12 +59,12 @@
     $d = $a; hello
     $a = $b; goodbye
     $b = $c; see you later
-    $c = $d; good night
+    $c = $d; hello
 
-    echo $a; // Outputs : hello
-    echo $b; // Outputs : goodbye
-    echo $c; // Outputs : see you later
-    echo $d; // Outputs : good night
+    echo $a; // Outputs : goodbye 
+    echo $b; // Outputs : see you later
+    echo $c; // Outputs : hello
+    echo $d; // Outputs : hello
 ?>
 
 
@@ -110,7 +110,7 @@
     }
 
     $myCat = new Cat();
-    echo $myCat->name; // Outputs: 
+    echo $myCat->name; // Outputs: the
 
-    $myCat->meow(); // Outputs: 
+    $myCat->meow(); // Outputs: the cat just meowed!
 ?>
